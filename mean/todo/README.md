@@ -1,6 +1,6 @@
 # Package and deploy with Stacksmith
 
-1. Go to stacksmith.bitnami.com
+1. Go to [stacksmith.bitnami.com](https://stacksmith.bitnami.com)
 2. Create a new application and select the MEAN/MERN stack template
 3. Select the targets you are insterested on (AWS,Kubernets,...)
 4. Compress the _app/_ folder from this repo and upload it as application files:
