@@ -14,7 +14,7 @@ For more information, please visit https://community.jaspersoft.com/.
 4. Download the JasperReports bundle from the official site: [JasperReports Server releases](https://community.jaspersoft.com/project/jasperreports-server/releases) (i.e. [TIB_js-jrs-cp_6.4.2_bin.zip](https://sourceforge.net/projects/jasperserver/files/JasperServer/JasperReports%20Server%20Community%20Edition%206.4.2/TIB_js-jrs-cp_6.4.2_bin.zip/download)) and upload it as application file.
 
 5. Upload the [_build.sh_](build.sh) and [_boot.sh_](boot.sh) scripts.
-6. Click the `Create` button
+6. Click the <kbd>Create</kbd> button
 
 ## Scripts
 
