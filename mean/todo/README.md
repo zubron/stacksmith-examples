@@ -7,7 +7,7 @@
 
    ```bash
    $ git clone https://github.com/bitnami/stacksmith-examples
-   $ id stacksmith-examples/mean/todo
+   $ cd stacksmith-examples/mean/todo
    $ tar czf app.tar.gz app
    ```
 
