@@ -6,7 +6,7 @@ This is a simple ToDo application to show how to deploy a MEAN application using
 
 1. Go to [stacksmith.bitnami.com](https://stacksmith.bitnami.com)
 2. Create a new application and select the MEAN/MERN stack template
-3. Select the targets you are insterested on (AWS,Kubernets,...)
+3. Select the targets you are insterested on (AWS, Kubernetes,...)
 4. Compress the _app/_ folder from this repo and upload it as application files:
 
    ```bash
