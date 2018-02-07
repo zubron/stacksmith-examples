@@ -1,0 +1,9 @@
+http://
+
+root /var/www/
+
+log /var/log/caddy/caddy_log
+
+errors /var/log/caddy/caddy_error
+
+ext .html .htm .php .txt
