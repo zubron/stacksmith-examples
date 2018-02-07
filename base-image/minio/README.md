@@ -8,7 +8,7 @@ In this example, you can find how to install a new service on top of the base im
 2. Create a new application and select the `Base image` Stack Template
 3. Select the targets you are interested on (AWS,K ubernetes,...)
 5. Upload the [_build.sh_](scripts/build.sh) and [_run.sh_](scripts/run.sh) scripts from the [_scripts/_](scripts/) folder. For this example it is not necessary to upload any application file since the Minio binary will be downloaded at build time.
-6. Click the `Create` button
+6. Click the <kbd>Create</kbd> button
 
 ## Scripts
 

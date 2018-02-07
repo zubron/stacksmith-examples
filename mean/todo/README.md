@@ -16,7 +16,7 @@ This is a simple ToDo application to show how to deploy a MEAN application using
    ```
 
 5. Upload the [_build.sh_](scripts/build.sh), [_boot.sh_](scripts/boot.sh) and [_run.sh_](scripts/run.sh) scripts from the [_scripts/_](scripts/) folder.
-6. Click the `Create` button
+6. Click the <kbd>Create</kbd> button
 
 ## Scripts
 
