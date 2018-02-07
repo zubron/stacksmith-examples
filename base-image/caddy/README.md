@@ -11,7 +11,7 @@ In this example, you can find how to install a new service on top of the base im
 
 1. Go to [stacksmith.bitnami.com](https://stacksmith.bitnami.com)
 2. Create a new application and select the `Base image` Stack Template
-3. Select the targets you are insterested on (AWS,Kubernets,...)
+3. Select the targets you are insterested on (AWS,Kubernetes,...)
 4. Upload in the `Application file` the [_Caddyfile_](files/Caddyfile), [_caddy.service_](files/caddy.service) and [_index.html_](files/index.html) files from the [_files/_](files/) folder.
 5. Upload the [_build.sh_](scripts/build.sh) and [_run.sh_](scripts/run.sh) scripts from the [_scripts/_](scripts/) folder.
 6. Click the `Create` button
