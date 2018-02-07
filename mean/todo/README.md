@@ -7,8 +7,8 @@
 
    ```bash
    $ git clone https://github.com/bitnami/stacksmith-examples
-   cd stacksmith-examples/mean/todo
-   tar czf app.tar.gz app
+   $ id stacksmith-examples/mean/todo
+   $ tar czf app.tar.gz app
    ```
 
 5. Upload the [_build.sh_](scripts/build.sh), [_boot.sh_](scripts/boot.sh) and [_run.sh_](scripts/run.sh) scripts from the [_scripts/_](scripts/) folder.
