@@ -7,6 +7,15 @@ In this example, you can find how to install a new service on top of the base im
 - HTTP/2 by default
 - Virtual hosting so multiple sites just work
 
+## Package and deploy with Stacksmith
+
+1. Go to [stacksmith.bitnami.com](https://stacksmith.bitnami.com)
+2. Create a new application and select the `Base image` Stack Template
+3. Select the targets you are insterested on (AWS,Kubernets,...)
+4. Upload in the `Application file` the [_Caddyfile_](files/Caddyfile), [_caddy.service_](files/caddy.service) and [_index.html_](files/index.html) files from the [_files/_](files/) folder.
+5. Upload the [_build.sh_](scripts/build.sh) and [_run.sh_](scripts/run.sh) scripts from the [_scripts/_](scripts/) folder.
+6. Click the `Create` button
+
 ## Scripts
 
 In the scripts folder, you can find the required scripts to run this service. 
