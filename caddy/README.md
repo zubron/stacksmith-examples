@@ -76,6 +76,12 @@ ext .html .htm .php .txt
 
 As you can see, the first line refers to the URL that Caddy will use to serve the files at `/var/www/`.
 
+- By default, the Caddy service uses `user@example.com` to register the new domains. In case you want to use your own email address to register your domains, please edit the file at `/etc/systemd/system/caddy.service` and reload the configuration of the service.
+
+```
+sudo systemctl daemon-reload
+```
+
 - Restart the Caddy service
 
 ```
