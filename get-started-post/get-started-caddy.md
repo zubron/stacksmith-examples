@@ -69,7 +69,7 @@ Once the build is successful, the “Launch in AWS” button appears in the uppe
 
 * Click on the “Launch in AWS” button to start the launch of the instance. 
 
-  ![Successful build](./img/build-success.png)
+  ![Successful build](./img/st-build-success.png)
 
   You will be redirected to the AWS Cloud Console “Create Stack -> Select Template” section. As you can see in the image below, the Amazon S3 template URL is already preselected and it is the one resulting from the build process done in Stacksmith. Click “Next” to proceed.
   
