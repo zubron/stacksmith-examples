@@ -11,7 +11,7 @@ In this example, you can find how to install a new service on top of the base im
 
 1. Go to [stacksmith.bitnami.com](https://stacksmith.bitnami.com)
 2. Create a new application and select the `Base image` Stack Template
-3. Select the targets you are insterested on (AWS,...)
+3. Select the targets you are interested on (AWS,...)
 
 > Note: This example doesn't work in containerized environments due to the usage of systemd in the Linux system.
 
