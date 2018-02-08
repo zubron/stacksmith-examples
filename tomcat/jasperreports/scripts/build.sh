@@ -6,7 +6,7 @@ set -euo pipefail
 # Install extra packages
 yum install -y unzip
 
-# Set necessary environment variables to executing js-ant
+# Set necessary environment variables to execute js-ant
 export JAVA_HOME="/usr/lib/jvm/jre"
 
 # Extract the compressed bundle
