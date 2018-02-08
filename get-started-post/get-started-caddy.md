@@ -17,6 +17,8 @@ Caddy is a general-purpose HTTP/2 web server that serves HTTPS by default. It is
 
 To demonstrate how easy it is to package an application and deploy it on AWS with Stacksmith, I will use an example application and script files you can find in the following [Bitnami GitHub repository](https://github.com/bitnami/stacksmith-examples/tree/master/base-image/caddy). I strongly recommend you to clone the project to perform the tasks below with ease. 
 
+| IMPORTANT: To follow the instructions below you need to have your AWS account associated to Stacksmith. Check the [AWS account onboarding](https://beta.stacksmith.bitnami.com/bitnami/aws-accounts/new) tutorial for further information.
+
 These are the steps you will follow:
 
 * Package the existing application in Bitnami Stacksmith
