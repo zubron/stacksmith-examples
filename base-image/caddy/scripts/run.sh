@@ -1,3 +1,3 @@
 #!/usr/bin/bash
 
-sudo systemctl start caddy
+systemctl start caddy
