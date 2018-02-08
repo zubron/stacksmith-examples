@@ -12,7 +12,7 @@ For more information, please visit https://community.jaspersoft.com/.
 2. Create a new application and select the _Tomcat application with PostgreSQL_ stack template. Alternatively, you can also use MySQL
 3. Select the targets you are interested on (AWS,Kubernetes,...)
 4. Download the JasperReports bundle from the official site: [JasperReports Server releases](https://community.jaspersoft.com/project/jasperreports-server/releases) (i.e. [TIB_js-jrs-cp_6.4.2_bin.zip](https://sourceforge.net/projects/jasperserver/files/JasperServer/JasperReports%20Server%20Community%20Edition%206.4.2/TIB_js-jrs-cp_6.4.2_bin.zip/download)) and upload it as application file
-5. Upload the [_build.sh_](scripts/build.sh) and [_boot.sh_](scripts/boot.sh) scripts from the [_scripts/_](scripts/) folder.
+5. Upload the [_build.sh_](scripts/build.sh) and [_boot.sh_](scripts/boot.sh) scripts from the [_scripts/_](scripts/) folder
 6. Click the <kbd>Create</kbd> button
 7. Launch it in [AWS](https://stacksmith.bitnami.com/support/quickstart-aws) or download the helm chart to run it in [Kubernetes](https://stacksmith.bitnami.com/support/quickstart-k8s)
 8. Access your application: http://IP:8080/jasperserver
