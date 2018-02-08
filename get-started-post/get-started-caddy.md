@@ -7,7 +7,7 @@
 
 **Adapt your legacy software to the cloud is not as easy as it sounds.** It implies that you need to address the best practices and requirements of the major cloud/container providers so you need to have a high-level knowledge in coding and a strong DevOps team. To do so, a lot of questions arises: *How can I adjust my code to the cloud/container target platform? Which are the changes do I need to perform in it?*
 
-**Using Bitnami Stacksmith** the only thing you have to do is uploading your application code, the related scripts, and choosing the platform target (either on the cloud or Kubernetes). 
+**Using Bitnami Stacksmith** the only thing you have to do is uploading your application code, the related scripts, and choosing the platform target (either the cloud or Kubernetes). 
 
 In this post you will learn how to quickly deploy a Go application called [Caddy](https://caddyserver.com/features) on AWS by previously packaging its code and transforming it into a Cloud Formation template using Stacksmith. For further information about how Bitnami Stacksmith works, check the [Bitnami Stacksmith Quick Start guide for AWS](https://beta.stacksmith.bitnami.com/support/quickstart-aws).
 
