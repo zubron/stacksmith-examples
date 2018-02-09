@@ -26,3 +26,4 @@ yarn install
 
 # Set ownership
 chown -R "$NON_ROOT_USER":"$NON_ROOT_USER" "$APP_DIR"
+
