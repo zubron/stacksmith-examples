@@ -39,3 +39,8 @@ This script is executed during the process of building the image, right after sp
 ### run.sh
 
 This script just starts the application.
+
+# Items to be fixed
+1. Add an user and grant him permissions for running Apache and listen to 80
+2. Check permissions for storage/logs/laravel.log
+3. Check permissions for storage/framework/views
