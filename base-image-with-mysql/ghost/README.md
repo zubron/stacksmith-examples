@@ -1,4 +1,4 @@
-# Tomcat + PostgreSQL: JasperReports Server
+# Base image with MySQL: Ghost
 
 This is an example to show how to deploy an application using the `Base image with MySQL` stack template in [Bitnami Stacksmith](stacksmith.bitnami.com).
 
