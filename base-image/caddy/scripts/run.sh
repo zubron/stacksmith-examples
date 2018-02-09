@@ -1,3 +1,3 @@
 #!/usr/bin/bash
 
-/etc/caddy/caddy-control.sh start
+su caddy -s /usr/bin/bash -c "/usr/local/bin/caddy -conf /etc/caddy/Caddyfile -agree -email user@example.com"
