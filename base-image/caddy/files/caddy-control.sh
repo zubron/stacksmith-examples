@@ -10,7 +10,7 @@ start)
     if pgrep -x "caddy" > /dev/null; then
         echo "Caddy Server is alredy running: $(pgrep -x 'caddy')"
     else
-	su caddy -s /usr/bin/bash -c "/usr/local/bin/caddy -conf /etc/caddy/Caddyfile -agree -email jota@bitnami.com" > /dev/null 2>&1 &
+	su caddy -s /usr/bin/bash -c "/usr/local/bin/caddy -conf /etc/caddy/Caddyfile -agree -email user@example.com" > /dev/null 2>&1 &
 	sleep 5
         echo "Caddy Server started: $(pgrep -x 'caddy')"
     fi

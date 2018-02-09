@@ -27,12 +27,12 @@ That file takes care of performing all the steps to install this new service in 
 - Installs Caddy using the script at https://getcaddy.com
 - Creates the system user to run this server
 - Creates the configuration file and the log folders
+- Copies the script to control the service
 - Copies the index.html page to the /var/www/ folder
-- Installs the service
 
 ### run.sh 
 
-This file is ran to start the Web server service. It uses the already installed service 
+This file is ran to start the Web server service. It uses the `caddy-control.sh` script.
 
 ## Files
 
@@ -84,6 +84,8 @@ ext .html .htm .php .txt
 ```
 
 As you can see, the first line refers to the URL that Caddy will use to serve the files at `/var/www/`.
+
+> By default, the Caddy service uses `user@example.com` to register the new domains. In case you want to use your own email address to register your domains, please edit the control script at `/etc/caddy/caddy-control.sh`.
 
 - Restart the Caddy service
 
