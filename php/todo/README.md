@@ -1,11 +1,12 @@
 # Introduction
-API-driven application for managing your ToDo list written in  and 
+Simple application for managing your ToDo list. 
+
+![ToDo](public/screenshot.png)
 
 This application is split into:
 
 * Frontend using [Vue](http://vuejs.org)
 * Backend using [Laravel](http://laravel.com/docs)
-* Local MySQL to persist data
 
 # Package and deploy with Stacksmith
 
