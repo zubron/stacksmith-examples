@@ -11,11 +11,8 @@ In this example, you can find how to install a new service on top of the base im
 
 1. Go to [stacksmith.bitnami.com](https://stacksmith.bitnami.com)
 2. Create a new application and select the `Base image` Stack Template
-3. Select the targets you are insterested on (AWS,...)
-
-> Note: This example doesn't work in containerized environments due to the usage of systemd in the Linux system.
-
-4. Upload in the `Application file` section the [_Caddyfile_](files/Caddyfile), [_caddy.service_](files/caddy.service) and [_index.html_](files/index.html) files from the [_files/_](files/) folder.
+3. Select the targets you are interested on (AWS, Kubernetes,...)
+4. Upload in the `Application file` section the [_Caddyfile_](files/Caddyfile), [_caddy-control.sh_](files/caddy-control.sh) and [_index.html_](files/index.html) files from the [_files/_](files/) folder.
 5. Upload the [_build.sh_](scripts/build.sh) and [_run.sh_](scripts/run.sh) scripts from the [_scripts/_](scripts/) folder.
 6. Click the <kbd>Create</kbd> button
 
@@ -30,12 +27,12 @@ That file takes care of performing all the steps to install this new service in 
 - Installs Caddy using the script at https://getcaddy.com
 - Creates the system user to run this server
 - Creates the configuration file and the log folders
+- Copies the script to control the service
 - Copies the index.html page to the /var/www/ folder
-- Installs the service
 
 ### run.sh 
 
-This file is ran to start the Web server service. It uses the already installed service 
+This file is ran to start the Web server service. It uses the `caddy-control.sh` script.
 
 ## Files
 
@@ -47,9 +44,9 @@ Main configuration file of Caddy. You can find more information about it in the 
 - The main site files are at `/var/www/`
 - The log files are at `/var/log/caddy/`
 
-### caddy.service
+### caddy-control.sh
 
-Service configuration file to manage the server based on the [repository's original service script](https://github.com/mholt/caddy/blob/master/dist/init/linux-systemd/caddy.service). It makes the service to run using the `caddy` user.
+Script file to manage the server. It makes the service to run using the `caddy` user.
 
 ### index.html
 
@@ -59,10 +56,10 @@ Example HTML site to show when accessing the server based on the [W3Schools Comi
 
 ### How to check the status of the Caddy service
 
-Caddy is installed as a service in the system. You can simply run the `service` command to get the status of it
+This example solution includes a script file to control the server. You can easily get the status of the service by running this command:
 
 ```
-sudo service caddy status
+/etc/caddy/caddy-control.sh status
 ```
 
 
@@ -88,14 +85,10 @@ ext .html .htm .php .txt
 
 As you can see, the first line refers to the URL that Caddy will use to serve the files at `/var/www/`.
 
-- By default, the Caddy service uses `user@example.com` to register the new domains. In case you want to use your own email address to register your domains, please edit the file at `/etc/systemd/system/caddy.service` and reload the configuration of the service.
-
-```
-sudo systemctl daemon-reload
-```
+> By default, the Caddy service uses `user@example.com` to register the new domains. In case you want to use your own email address to register your domains, please edit the control script at `/etc/caddy/caddy-control.sh`.
 
 - Restart the Caddy service
 
 ```
-sudo service caddy restart
+/etc/caddy/caddy-control.sh restart
 ```

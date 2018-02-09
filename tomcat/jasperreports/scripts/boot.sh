@@ -44,8 +44,5 @@ cd "$BUILDOMATIC_DIR"
 # ./js-ant update-foodmart-db
 # ./js-ant import-sample-data-ce
 
-# Restart Tomcat to reload the new webapp
-systemctl restart tomcat.service
-
 # Once the boot script is finished, create flag file
 touch "$EXECUTED_ONCE_STAMP"

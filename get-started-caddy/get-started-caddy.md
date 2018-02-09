@@ -1,28 +1,23 @@
-Since the [digital transformation](https://www.gartner.com/smarterwithgartner/embrace-the-urgency-of-digital-transformation/) is a must for every business, **the need of embracing digital technologies** that allow companies to automate their processes has increased exponentially. 
-Organizations -especially IT organizations- work every day with digital technologies that help them to be more productive, reliable, and secure since the human error dicrease thaks to automation. But the most common scenario is having all these in-house applications and services hosted and run in an on-premises data center.
 
-**Supporting in-house all those legacy applications is costly, inefficient, and time-consuming since they require to manually schedule application and OS updates, as well as security patches.**
-For that reason, many companies are moving to managed solutions, and of course, the most popular choice is [to migrate your IT resources to the cloud](http://blog.bitnami.com/2018/01/top-5-excuses-for-not-migrating.html). Problems arise when they realize that although they are not a Fortune-500 size company, they are needing a Fortune-500-level IT service. What can they do in that case? 
-
-## Replatform legacy applications to embrace the cloud
-
-Adapt your legacy software to the cloud is not as easy as it sounds. It implies that you need to address the best practices and requirements of the major cloud/container providers so you need to have a high-level knowledge in coding and a strong DevOps team. If you are searching for cost-effectiveness, automation, and reliability, chances are that you finally choose to [replatform your legacy applications](http://blog.bitnami.com/2018/01/replatforming-legacy-applications.html) as the best alternative to move them into the cloud.
-Now, a lot of questions arises: *How can I adjust my code to the cloud/container target platform? Which are the changes do I need to perform in it?*
-
-**Bitnami Stacksmith** is a tool that follows the one-click Bitnami philosophy created to replatform your applications in an automate, easy, and reliable way. So it can answer all these questions for you. Stacksmith packages your code following the requirements and best practices of the platform you choose. It helps you to **deploy and run the application either on the cloud or on Kubernetes**, and also automates its software updates. Incredible, right? 
-The only thing you have to do is uploading your application code, the related scripts, and choosing the platform target. Yes, that’s all. 
+# How to easily move your applications to the cloud
 
 > Bitnami Stacksmith simplifies the migration of your applications to the cloud by automating the manual tasks required to package, deploy and maintain software stacks for all major container and cloud platforms. 
 
 *Michael Murphy, Product Marketing at Bitnami*.
 
-In this post you will learn how to quickly deploy a PHP application called [Caddy](https://caddyserver.com/features) on AWS by previously packaging its code and transforming it into a Cloud Formation template using Stacksmith. For further information about how Bitnami Stacksmith works, check the [Bitnami Stacksmith Quick Start guide for AWS](https://beta.stacksmith.bitnami.com/support/quickstart-aws).
+**Adapt your legacy software to the cloud is not as easy as it sounds.** It implies that you need to address the best practices and requirements of the major cloud/container providers so you need to have a high-level knowledge in coding and a strong DevOps team. To do so, a lot of questions arises: *How can I adjust my code to the cloud/container target platform? Which are the changes do I need to perform in it?*
 
-## Let’s try Bitnami Stacksmith
+**Using Bitnami Stacksmith** the only thing you have to do is uploading your application code, the related scripts, and choosing the platform target (either the cloud or Kubernetes). 
+
+In this post you will learn how to quickly deploy a Go application called [Caddy](https://caddyserver.com/features) on AWS by previously packaging its code and transforming it into a Cloud Formation template using Stacksmith. For further information about how Bitnami Stacksmith works, check the [Bitnami Stacksmith Quick Start guide for AWS](https://beta.stacksmith.bitnami.com/support/quickstart-aws).
+
+## Quick start with Bitnami Stacksmith
 
 Caddy is a general-purpose HTTP/2 web server that serves HTTPS by default. It is very easy to configure it thanks to the Caddyfile, includes Automatic HTTPS on (via Let's Encrypt) and HHTP/2  by default, and can be extended with plugins.
 
 To demonstrate how easy it is to package an application and deploy it on AWS with Stacksmith, I will use an example application and script files you can find in the following [Bitnami GitHub repository](https://github.com/bitnami/stacksmith-examples/tree/master/base-image/caddy). I strongly recommend you to clone the project to perform the tasks below with ease. 
+
+| IMPORTANT: To follow the instructions below you need to have your AWS account associated to Stacksmith. Check the [AWS account onboarding](https://beta.stacksmith.bitnami.com/bitnami/aws-accounts/new) tutorial for further information.
 
 These are the steps you will follow:
 

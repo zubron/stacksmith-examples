@@ -1,3 +1,3 @@
 #!/usr/bin/bash
 
-systemctl start caddy
+/etc/caddy/caddy-control.sh start
