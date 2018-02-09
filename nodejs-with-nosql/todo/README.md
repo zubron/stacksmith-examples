@@ -1,11 +1,11 @@
-# Mean ToDo Application
+# MEAN ToDo Application
 
 This is a simple ToDo application to show how to deploy a MEAN application using [Bitnami Stacksmith](stacksmith.bitnami.com)
 
 ## Package and deploy with Stacksmith
 
 1. Go to [stacksmith.bitnami.com](https://stacksmith.bitnami.com)
-2. Create a new application and select the MEAN/MERN stack template
+2. Create a new application and select the `Node.js with NoSQL DB (MongoDB)` stack template
 3. Select the targets you are interested on (AWS, Kubernetes,...)
 4. Compress the _app/_ folder from this repo and upload it as application files:
 
