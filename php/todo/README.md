@@ -11,7 +11,7 @@ This application is split into:
 # Package and deploy with Stacksmith
 
 1. Go to [stacksmith.bitnami.com](https://stacksmith.bitnami.com)
-2. Create a new application and select the `Base image with MySQL` template
+2. Create a new application and select the `Generic application with DB (MySQL)` template
 3. Select the targets you are interested on (AWS, Kubernetes,...)
 4. Compress the _todo/_ folder from this repo and upload it as application files:
 

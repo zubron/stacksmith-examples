@@ -1,4 +1,4 @@
-# Tomcat + PostgreSQL: JasperReports Server
+# Java Tomcat with DB (PostgreSQL): JasperReports Server
 
 This is a real Tomcat webapp to show how to deploy Tomcat+PostgreSQL applications using [Bitnami Stacksmith](stacksmith.bitnami.com).
 
@@ -9,7 +9,7 @@ For more information, please visit https://community.jaspersoft.com/.
 ## Package and deploy with Stacksmith
 
 1. Go to [stacksmith.bitnami.com](https://stacksmith.bitnami.com)
-2. Create a new application and select the _Tomcat application with PostgreSQL_ stack template. Alternatively, you can also use MySQL
+2. Create a new application and select the _Java Tomcat application with DB (PostgreSQL)_ stack template. Alternatively, you can also use MySQL
 3. Select the targets you are interested on (AWS,Kubernetes,...)
 4. Download the JasperReports bundle from the official site: [JasperReports Server releases](https://community.jaspersoft.com/project/jasperreports-server/releases) (i.e. [TIB_js-jrs-cp_6.4.2_bin.zip](https://sourceforge.net/projects/jasperserver/files/JasperServer/JasperReports%20Server%20Community%20Edition%206.4.2/TIB_js-jrs-cp_6.4.2_bin.zip/download)) and upload it as application file
 5. Upload the [_build.sh_](scripts/build.sh) and [_boot.sh_](scripts/boot.sh) scripts from the [_scripts/_](scripts/) folder

@@ -1,6 +1,6 @@
-# Base image template
+# Generic application stack template
 
-In this example, you can find how to install a new service on top of the base image for Stacksmith. [Caddy](https://caddyserver.com/) is a general-purpose HTTP/2 web server that serves HTTPS by default. Between its features you can find:
+In this example, you can find how to install a new service on top of the generic application stack template for Stacksmith. [Caddy](https://caddyserver.com/) is a general-purpose HTTP/2 web server that serves HTTPS by default. Between its features you can find:
 
 - Easy configuration with the Caddyfile
 - Automatic HTTPS on by default (via Let's Encrypt)
@@ -10,7 +10,7 @@ In this example, you can find how to install a new service on top of the base im
 ## Package and deploy with Stacksmith
 
 1. Go to [stacksmith.bitnami.com](https://stacksmith.bitnami.com)
-2. Create a new application and select the `Base image` Stack Template
+2. Create a new application and select the `Generic application (no pre-installed runtime)` Stack Template
 3. Select the targets you are interested on (AWS, Kubernetes,...)
 4. Upload in the `Application file` section the [_Caddyfile_](files/Caddyfile), [_caddy-control.sh_](files/caddy-control.sh) and [_index.html_](files/index.html) files from the [_files/_](files/) folder.
 5. Upload the [_build.sh_](scripts/build.sh) and [_run.sh_](scripts/run.sh) scripts from the [_scripts/_](scripts/) folder.

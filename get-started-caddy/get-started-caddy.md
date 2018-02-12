@@ -42,7 +42,7 @@ These are the steps you will follow:
 * In the “Create a new application” screen I will provide the following information:
   * Application name: don’t use spaces in the application name.
   * Application version
-  * Stack template: in this case, I selected “Base image”.
+  * Stack template: in this case, I selected “Generic application (no pre-installed runtime)”.
   * Operating System: Stacksmith uses CentOS by default.
   * Target: I have selected AWS.
 

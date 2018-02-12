@@ -1,6 +1,6 @@
-# Base image with MySQL: Ghost
+# Generic application with DB (MySQL): Ghost
 
-This is an example to show how to deploy an application using the `Base image with MySQL` stack template in [Bitnami Stacksmith](stacksmith.bitnami.com).
+This is an example to show how to deploy an application using the `Generic application with DB (MySQL)` stack template in [Bitnami Stacksmith](stacksmith.bitnami.com).
 
 We chose [Ghost](https://ghost.org/):
 
@@ -9,7 +9,7 @@ We chose [Ghost](https://ghost.org/):
 ## Package and deploy with Stacksmith
 
 1. Go to [stacksmith.bitnami.com](https://stacksmith.bitnami.com)
-2. Create a new application and select the _Base image with MySQL_ stack template.
+2. Create a new application and select the _Generic application with DB (MySQL)_ stack template.
 3. Select the targets you are interested on (AWS,Kubernetes,...)
 4. We created a [_env_](files/env) to keep common configuration along our scripts. Upload it from the [_files_](files/) folder as an application file.
 5. Upload the [_build.sh_](scripts/build.sh), [_boot.sh_](scripts/boot.sh) and [_run.sh_](scripts/run.sh) scripts from the [_scripts/_](scripts/) folder.
