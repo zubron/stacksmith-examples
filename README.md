@@ -11,7 +11,7 @@ It contains the following examples:
 * [A Node.js/MongoDB application](nodejs-with-nosql/todo/)
 * [A PHP/VueJS application](php/todo/)
 
-[Learn more about Stacksmith](https://bitnami.com/application-packaging)
+[Learn more about automated application packaging with Stacksmith](https://bitnami.com/application-packaging).
 
 # License
 
