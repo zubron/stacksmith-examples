@@ -1,6 +1,6 @@
 # Stacksmith Examples
 
-This repository contains application examples (written in PHP, Node, Go, etc.) that you can use to learn about packaging and deployment with Stacksmith.
+This repository hosts various example applications (written in PHP, Node, Go, etc.) that you can use to learn about packaging and deployment with Stacksmith.
 
 It contains the following examples:
 
