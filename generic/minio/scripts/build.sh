@@ -6,8 +6,8 @@ yum clean all
 
 # Install Caddy Server using the Personal license
 export PATH="$PATH:/usr/local/bin"
-curl -O https://dl.minio.io/server/minio/release/linux-amd64/minio
-chmod +x minio
+curl https://dl.minio.io/server/minio/release/linux-amd64/minio -o /opt/stacksmith/user-uploads/minio
+chmod +x /opt/stacksmith/user-uploads/minio
 
 # Create new user
 groupadd minio
