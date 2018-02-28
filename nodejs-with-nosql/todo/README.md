@@ -10,8 +10,8 @@ This is a simple ToDo application to show how to deploy a MEAN application using
 4. Compress the _app/_ folder from this repo and upload it as application files:
 
    ```bash
-   $ git clone https://github.com/bitnami/stacksmith-examples
-   $ cd stacksmith-examples/mean/todo
+   $ git clone https://github.com/bitnami-labs/stacksmith-examples
+   $ cd stacksmith-examples/nodejs-with-nosql/todo
    $ tar czf app.tar.gz app
    ```
 
