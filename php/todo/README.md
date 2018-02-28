@@ -16,7 +16,7 @@ This application is split into:
 4. Compress the _todo/_ folder from this repo and upload it as application files:
 
    ```bash
-   $ git clone https://github.com/bitnami/stacksmith-examples
+   $ git clone https://github.com/bitnami-labs/stacksmith-examples
    $ cd stacksmith-examples/php
    $ tar czf todo.tar.gz todo
    ```
