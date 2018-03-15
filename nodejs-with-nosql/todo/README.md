@@ -30,8 +30,8 @@ This is a simple ToDo application to show how to deploy a MEAN application using
    ```
    
 2. Go to your app [stacksmith.bitnami.com](https://stacksmith.bitnami.com)
-3. Click on **Edit configuration**, delete `app.blue.tar.gz` and upload `app.orange.tar.gz`
-4. Click **Update**.
+3. Click on <kbd>Edit configuration</kbd>, delete `app.blue.tar.gz` and upload `app.orange.tar.gz`
+4. Click <kbd>Update</kbd>.
 5. Wait for the new version to be built and re-deploy it in your favorite target platform.
 
 ## Scripts
