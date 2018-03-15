@@ -16,3 +16,6 @@ tar xzf ${UPLOADS_DIR}/app.tar.gz -C /opt
 
 # Set permissions
 chown -R ${system_user}:${system_user} ${installdir}
+
+# Installing application dependencies
+exec su "${system_user}" -c "cd ${installdir} && npm install"
