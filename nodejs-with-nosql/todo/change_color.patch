@@ -1,0 +1,13 @@
+diff --git a/nodejs-with-nosql/todo/app/public/index.html b/nodejs-with-nosql/todo/app/public/index.html
+index 768204c..8162fb5 100644
+--- a/nodejs-with-nosql/todo/app/public/index.html
++++ b/nodejs-with-nosql/todo/app/public/index.html
+@@ -33,7 +33,7 @@
+ 
+ 		<!-- HEADER AND TODO COUNT -->
+ 		<div class="jumbotron text-center">
+-			<h1>This is your to do list <span class="label label-info">{{ todos.length }}</span></h1>
++			<h1>This is your to do list <span class="label label-info" style="background-color:orange;">{{ todos.length }}</span></h1>
+ 		</div>
+ 
+ 		<!-- TODO LIST -->
