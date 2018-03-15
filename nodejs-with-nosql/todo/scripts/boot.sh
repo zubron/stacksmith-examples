@@ -16,6 +16,3 @@ sed -i -e "s/process.env.DATABASE_PORT/\"${DATABASE_PORT}\"/" "${database_conf_f
 sed -i -e "s/process.env.DATABASE_USER/\"${DATABASE_USER}\"/" "${database_conf_file}"
 sed -i -e "s/process.env.DATABASE_NAME/\"${DATABASE_NAME}\"/" "${database_conf_file}"
 sed -i -e "s/process.env.DATABASE_PASSWORD/\"${DATABASE_PASSWORD}\"/" "${database_conf_file}"
-
-# Installing application dependencies
-exec su "${system_user}" -c "cd ${installdir} && npm install"
