@@ -14,6 +14,8 @@ This is a simple ToDo application to show how to deploy a MEAN application using
    cd stacksmith-examples/nodejs-with-nosql/todo
    tar czf app.blue.tar.gz app
    ```
+   
+You can also download [`app.blue.tar.gz` from the releases page](https://github.com/bitnami-labs/stacksmith-examples/releases/download/v1/app.blue.tar.gz).
 
 5. Upload the [_build.sh_](scripts/build.sh), [_boot.sh_](scripts/boot.sh) and [_run.sh_](scripts/run.sh) scripts from the [_scripts/_](scripts/) folder.
 6. Click the <kbd>Create</kbd> button.
@@ -28,6 +30,8 @@ This is a simple ToDo application to show how to deploy a MEAN application using
    git apply ./change_color.patch
    tar czf app.orange.tar.gz app
    ```
+   
+You can also download [`app.orange.tar.gz` from the releases page](https://github.com/bitnami-labs/stacksmith-examples/releases/download/v1/app.orange.tar.gz).
    
 2. Go to your app [stacksmith.bitnami.com](https://stacksmith.bitnami.com)
 3. Click on <kbd>Edit configuration</kbd>, delete `app.blue.tar.gz` and upload `app.orange.tar.gz`
