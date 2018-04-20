@@ -5,7 +5,7 @@ This repository hosts various example applications (written in PHP, Node, Go, et
 It contains the following examples:
 
 * [A generic HTTP service (Caddy)](generic/caddy)
-* [A generic object storage service (Minio)](generic/caddy)
+* [A generic object storage service (Minio)](generic/minio)
 * [A MySQL-based application (Ghost)](generic-with-mysql/ghost)
 * [A Java/Tomcat/PostgreSQL application (JasperReports)](java-tomcat/jasperreports)
 * [A Node.js/MongoDB application](nodejs-with-nosql/todo/)
