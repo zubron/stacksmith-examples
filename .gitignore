@@ -1,0 +1,2 @@
+java-tomcat/customerapp/target/*
+!java-tomcat/customerapp/target/customerapp-1.0.0.war
