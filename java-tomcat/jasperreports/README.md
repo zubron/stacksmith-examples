@@ -15,7 +15,7 @@ For more information, please visit https://community.jaspersoft.com/.
 5. Upload the [_build.sh_](scripts/build.sh) and [_boot.sh_](scripts/boot.sh) scripts from the [_scripts/_](scripts/) folder
 6. Click the <kbd>Create</kbd> button
 7. Launch it in [AWS](https://stacksmith.bitnami.com/support/quickstart-aws) or download the helm chart to run it in [Kubernetes](https://stacksmith.bitnami.com/support/quickstart-k8s)
-8. Access your application: http://IP:8080/jasperserver
+8. Access your application: http://IP/jasperserver
 
 ## Scripts
 
